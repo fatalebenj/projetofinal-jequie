@@ -1,5 +1,24 @@
 .instituicao {
     background-color: brown;
+    color: white;
+    padding: 9px;
+    width: 50%;
 }
 
-.ins
+.nome-instituicao {
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.imagem-instituicao {
+    height: 200px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.instituicao a {
+    color: white;
+}
+
+#superior {
+}
