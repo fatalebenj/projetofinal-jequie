@@ -5,7 +5,7 @@
     gap: 20px;
 }
 
-#superior h2 {
+#superior h2, #tecnico h2 {
     width: 100%;
 }
 
