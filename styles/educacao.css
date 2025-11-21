@@ -1,8 +1,20 @@
+#superior, #tecnico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#superior h2 {
+    width: 100%;
+}
+
 .instituicao {
     background-color: brown;
     color: white;
     padding: 9px;
-    width: 50%;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
 }
 
 .nome-instituicao {
@@ -18,7 +30,4 @@
 
 .instituicao a {
     color: white;
-}
-
-#superior {
 }
