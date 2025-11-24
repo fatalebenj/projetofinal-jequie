@@ -5,12 +5,20 @@
     gap: 20px;
 }
 
+#pontos-container h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20pt;
+}
+
 .ponto {
     background-color: brown;
     color: white;
     padding: 9px;
     width: calc(50% - 10px);
     box-sizing: border-box;
+    text-align: center;
 }
 
 .nome-ponto {
@@ -19,7 +27,12 @@
 }
 
 .imagem-ponto {
-    height: 200px;
-    width: auto;
-    margin-right: 15px;
+    width: 500px;
+    height: auto;
+}
+
+.sobre-ponto {
+    margin-top: 10px;
+    font-size: 14pt;
+    text-align: justify;
 }
